@@ -7,18 +7,18 @@ class Gitsift < Formula
   on_macos do
     on_arm do
       url "https://github.com/MonteYin/gitsift/releases/download/v0.1.0/gitsift-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eaf742df53122ffc8560ea691407b01e8ab23cdaa50e54a8f471b2641086ff22"
+      sha256 "e9dc2d304f4cb0f024fbf3fab60322751d1ec2613e5c13a4f625e88dffd5e56a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/MonteYin/gitsift/releases/download/v0.1.0/gitsift-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3c94471ef6b7a9f33fc1a3697eb610f44c4f93268118bac6e73b8767f26229f0"
+      url "https://github.com/MonteYin/gitsift/releases/download/v0.1.0/gitsift-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "407a1f015c472ddba4193ace826c005377e5c03e211f0ec21a5d6f4441154e32"
     end
     on_arm do
-      url "https://github.com/MonteYin/gitsift/releases/download/v0.1.0/gitsift-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "46c42c5b3313bb0c775b6109906099d0f6896df9e33889ff931cda6aa7847c03"
+      url "https://github.com/MonteYin/gitsift/releases/download/v0.1.0/gitsift-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e0e32f3c9e7af33c7342970887aed7d2297dcf249ea4d6532a18525874fdbfb3"
     end
   end
 
